@@ -1,1 +1,1 @@
-# geekgrains_course
+# HTML/CSS. Интерактивный курс GeekBrains
