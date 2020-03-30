@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
     margin: 0 auto;
+    background-color: #f8f8f8;
 }
 
 header {
@@ -20,7 +21,27 @@ h1 {
     font-size: 25px;
     font-family: 'Roboto', sans-serif; 
     text-decoration: none;
+}
 
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_product_brief {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailed_product_brief {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 }
 
 a {
@@ -31,6 +52,15 @@ a {
 a:hover {
     color: rgb(206, 145, 34);
 }
+
+ul {
+    line-height: 25px
+}
+
+.description {
+   list-style-image: url(../img/glasses.png);
+}
+
 
 section {
     width: 300px;
@@ -46,6 +76,10 @@ section {
     color: rgb(206, 145, 34);
 }
 
+.sidebar .menu {
+    list-style: none;
+}
+
 .sidebar {
     height: 100%;
     width: 350px;
@@ -53,7 +87,6 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
-
 }
 
 .man {
@@ -99,7 +132,6 @@ article {
     margin-bottom: 100px;
 }
 
-
 .glasses {
     float: left;
     margin-right: 50px;
@@ -117,7 +149,7 @@ article {
 }
  
 .next {
-    margin-top: 80px;
+    margin: 80px 0px;
 }
 
 .next_border {
@@ -127,12 +159,15 @@ article {
 }
 
 input {
-  
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
+}
 
+.input {
+    width: 180px;
+    color: #50a1fd;
 }
 
 footer {
@@ -151,6 +186,8 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    padding: 5px;
+    background-color: #ffcc65;
   }
   
   #myImg:hover {opacity: 0.7;}
