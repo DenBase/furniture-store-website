@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hipster Glasses Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="Лого" class="logo">
+        </a>
+    </header>
+
+    <section>
+        <div class="sidebar">
+            <ul class="menu">
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="../catalog.html">Каталог</a></li>
+                <li><a href="../contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <img src="../img/women.png" alt="Мужчина" height="650px" class="man">
+    </section>
+
+    <article>
+
+        <h1>Ray-Ban</h1>
+        <p> <b>Полное название модели:</b> <br> Ray-Ban 2447 901/4O Icons Round
+        </p>
+        <img id="myImg" src="../img/photo1-2.jpg" alt="Очки Ray-Ban" height="300px">
+        <div class="infobox">
+            <h3>Главные характеристики:</h3>
+            <p>Солнцезащитные очки Ray-Ban 2447 Icons 901/4O Round Flash Lenses с яркими зеркальными голубого градиента
+                линзами из стекла. Фронт оправы и заушники из блестящего черного ацетата контрастируют с металлическими
+                матовыми дужками и переносицей. Ослепительная и блистательная красочная модель не оставит равнодушными в
+                этом сезоне модников и модниц!</p>
+        </div>
+        <div class="next"><a href="glasses_2.html" class="next_border">Следующая модель &#128526;</a></div>
+        
+    </article>
+
+
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+
+
+
+    <!-- скрипт -->
+    <script>
+        var modal = document.getElementById("myModal");
+
+        var img = document.getElementById("myImg");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        var span = document.getElementsByClassName("close")[0];
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+    <!-- конец скрипта-->
+
+    <footer><span>&copy;Все права защищены</span></footer>
+</body>
+
+</html>
