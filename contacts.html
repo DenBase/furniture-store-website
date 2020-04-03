@@ -9,24 +9,19 @@
 </head>
 
 <body>
-    <header>
+    <div class="header">
         <a href="index.html">
-            <img src="img/logo.png" alt="Лого" class="logo">
+            <img src="../img/logo.png" alt="Лого">
         </a>
-    </header>
+        <ul id="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <li><a href="table.html">Таблица</a></li>
+        </ul>
+    </div>
 
-    <section>
-        <div class="sidebar">
-            <ul class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="catalog.html">Каталог</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </div>
-        <img src="img/man4.png" alt="Мужчина" height="650px" class="man">
-    </section>
-
-    <article class="contacts">
+    <div class="contacts">
         <div class="backgraund_form">
             <h4>Форма обратной связи</h4>
             <form class="form" action="">
@@ -42,17 +37,21 @@
                 <input type="submit" value="Отправить данные"> <input type="reset" value="Очистить">
             </form>
         </div>
-    </article>
-
-    <div class="map">
-        <h3>Наш адрес:</h3>
-        <p>Москва, м. Бауманская, Спартаковская пл., 14 </p>
-        <iframe
-            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae68fed01da25961c1cc213a98184820377ed568faed2a9a84df5f5e03b28ad35&amp;source=constructor"
-            width="100%" height="330" frameborder="0"></iframe>
     </div>
 
-    <footer><span>&copy;Все права защищены</span></footer>
+    <div class="box_map">
+        <div class="map">
+            <h3>Наш адрес:</h3>
+            <p>Москва, м. Бауманская, Спартаковская пл., 14 </p>
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae68fed01da25961c1cc213a98184820377ed568faed2a9a84df5f5e03b28ad35&amp;source=constructor"
+                width="100%" height="330" frameborder="0"></iframe>
+        </div>
+    </div>
+
+</div>
+
+    <div class="footer"><span>&copy;Все права защищены</span></div>
 </body>
 
 </html>
