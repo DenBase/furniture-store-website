@@ -42,9 +42,10 @@ h3 {
 
 .short_product_brief {
     color: #707070;
-    font-size: 14px;
+    font-size: 17px;
     font-style: italic;
-    line-height: 16px;
+ 
+    text-align: left;
 }
 
 .detailed_product_brief {
@@ -127,8 +128,8 @@ td:nth-child(1) {
 }
 
 .map {
-    height: 400px;
-    width: 1000px;
+    height: 374px;
+    width: 100%;
     margin-top: 100px; 
     margin: 0 auto;
 }
@@ -140,16 +141,15 @@ td:nth-child(1) {
     width: 600px;
     text-align: justify;
     margin: auto;
+    clear: both;
+    overflow: hidden;
 }
 
-.next {
-    margin: 80px 0px;
-}
-
-.next_border {
-    border: 1.5px #ffcc65;
-    padding: 15px;
-    border-style: dotted;
+.description {
+    overflow: hidden;
+    padding-left: 20px;
+    min-width: 400px;
+    max-width: 550px;
 }
 
 input {
@@ -157,6 +157,24 @@ input {
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
+}
+
+button {
+    margin: 50px 0px 100px;
+    background-color: #00b956;
+    padding: 15px 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border:none;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: #22b0db;
 }
 
 .input {
@@ -176,9 +194,20 @@ input {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
     color: floralwhite;
     padding: 5px 0px;
+    height: 30px;
+}
+
+.copyright {
+    float: right;
+    margin: 5px 50px 0px 0px;
+}
+
+.dz {
+    margin-top: 300px;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 #myImg {
@@ -187,6 +216,9 @@ input {
     transition: 0.3s;
     padding: 5px;
     outline: 5px solid #ffcc65;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 #myImg:hover {
@@ -312,4 +344,14 @@ table td {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+.header_dz {
+    height: 50px;
+    background-image: url(/img/header.png);
+   
+}
+
+.header_dz ul li a {
+    color: honeydew;
 }
