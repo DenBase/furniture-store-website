@@ -10,7 +10,7 @@
 ![Иллюстрация к проекту](https://github.com/DenBase/img/blob/master/2.jpg)
 + Урок 5. Формирование блочной модели, блочная верстка (смотреть коммиты)
 ![Иллюстрация к проекту](https://github.com/DenBase/img/blob/master/4.jpg)
-+ Урок 6. Работа с макетом дизайна в формате PSD
++ Урок 6. Верстка с макета в формате PSD
 ![Иллюстрация к проекту](https://github.com/DenBase/img/blob/master/interior-home-page.jpg)
 + Урок 7. Разметка сайта и знакомство с Bootstrap
 + Урок 8. Стандарты web и вспомогательные инструменты
