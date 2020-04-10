@@ -1,41 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Interior Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="conteiner">
-        <div class="slider padding-site">
-            <div class="header clearfix">
-                <a href="#"><img src="img/logo.svg" alt="logo"></a>
-                
-                <ul class="menu clearfix">
-                    <li class="menu-list"><a href="#" class="menu-link menu-link-active">HOME</a></li>
-                    <li class="menu-list"><a href="#" class="menu-link">PRODUCTS</a></li>
-                    <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
-                    <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li>
-                    <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
-                    <li class="menu-list"><a href="#" class="menu-link"><img src="img/search.svg" alt="search"></a></li>
-                </ul>
+    <div class="header">
+        <div class="container">
+            <a href="#"><img src="img/logo.svg" alt="logo"></a>
+            <ul class="menu">
+                <li class="menu-list"><a href="#" class="menu-link-active">HOME</a></li>
+                <li class="menu-list"><a href="product.html" class="menu-link">PRODUCTS</a></li>
+                <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
+                <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li>
+                <li class="menu-list"><a href="contact.html" class="menu-link">CONTACT</a></li>
+                <li class="menu-list"><a href="#" class="menu-link"><img src="img/search.svg" alt=""></a></li>
+            </ul>
+            <label class="menu-burger">
+                <a href="#"><img src="img/menu.png" alt="menu" width="50" height="50"></a>
+
+            </label>
+        </div>
+    </div>
+    <div class="slider container-big swiper-container">
+        <div class="swiper-wrapper">
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_1.jpg" alt="slider" class="slider-img">
+                <div class="slider-text container">
+                    <p class="slider-trending">TRENDING</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="#" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
             </div>
-            <div class="slider-text">
-                <p class="slider-trending">TRENDING</p>
-                <h2 class="slider-h2">Fishnet Chair</h2>
-                <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
-                <a href="#" class="button">Order Us</a>
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_2.jpg" alt="slider" class="slider-img">
+                <div class="slider-text container">
+                    <p class="slider-trending">TRENDING</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
             </div>
-            <div class="pagination">
-                <a href="" class="circle"></a>
-                <a href="" class="circle circle-active"></a>
-                <a href="" class="circle"></a>
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_3.jpg" alt="slider" class="slider-img">
+                <div class="slider-text container">
+                    <p class="slider-trending">TRENDING</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pagination swiper-pagination"></div>
+    </div>
+    <div class="relevant container">
+        <div class="relevant-actions">
+            <div class="relevant-btn">
+                <button class="relevant-btn-feat active">Featured</button>
+                <button class="relevant-btn-new">New</button>
+            </div>
+            <a href="#" class="relevant-all">
+                explore all
+                <img src="img/next.png" alt="next" width="15" height="14">
+            </a>
+        </div>
+        <div class="relevant-product">
+            <a href="#">
+                <img src="img/product-1.jpg" alt="">
+                <div class="overlay">
+                    <div class="overlay-btn">
+                        <img class="arrow-big" src="img/arrow.svg" alt="arrow">
+                    </div>
+                    <p class="overlay-caption">Fishnet Chair</p>
+                    <p class="overlay-descrip">Seat and back with upholstery made of cold cure foam</p>
+                </div>
+            </a>
+            <a href="#">
+                <img src="img/product-2.jpg" alt="">
+                <div class="overlay">
+                    <div class="overlay-btn">
+                        <img class="arrow-big" src="img/arrow.svg" alt="arrow">
+                    </div>
+                    <p class="overlay-caption">Fishnet Chair</p>
+                    <p class="overlay-descrip">Seat and back with upholstery made of cold cure foam</p>
+                </div>
+            </a>
+            <a href="#">
+                <img src="img/product-3.jpg" alt="">
+                <div class="overlay">
+                    <div class="overlay-btn">
+                        <img class="arrow-big" src="img/arrow.svg" alt="arrow">
+                    </div>
+                    <p class="overlay-caption">Fishnet Chair</p>
+                    <p class="overlay-descrip">Seat and back with upholstery made of cold cure foam</p>
+                </div>
+            </a>
+            <a href="#">
+                <img src="img/product-4.jpg" alt="">
+                <div class="overlay">
+                    <div class="overlay-btn">
+                        <img class="arrow-big" src="img/arrow.svg" alt="arrow">
+                    </div>
+                    <p class="overlay-caption">Fishnet Chair</p>
+                    <p class="overlay-descrip">Seat and back with upholstery made of cold cure foam</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="exclusive container-big">
+        <div class="exclusive-box">
+            <img class="exclusive-img" src="img/exclusive-left.jpg" alt="image">
+            <div class="exclusive-text">
+                <p class="exclusive-heading">exclusive</p>
+                <h3 class="exclusive-h3">Fishnet Chair</h3>
+                <p class="exclusive-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+                <a href="" class="button">
+                    Order Us
+                    <img src="img/next.png" alt="next" width="15" height="14">
+                </a>
+            </div>
+        </div>
+        <div class="exclusive-box">
+            <img class="exclusive-img" src="img/exclusive-right.jpg" alt="image">
+            <div class="exclusive-text">
+                <p class="exclusive-heading">exclusive</p>
+                <h3 class="exclusive-h3">Fishnet Chair</h3>
+                <p class="exclusive-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+                <a href="" class="button">
+                    Order Us
+                    <img src="img/next.png" alt="next" width="15" height="14">
+                </a>
             </div>
         </div>
     </div>
-</body>
+    <div class="trending container">
+        <div class="trending-top">
+            <h3>Trending Products</h3>
+            <a href="#" class="relevant-all">
+                explore all
+                <img src="img/next.png" alt="next" width="15" height="14">
+            </a>
+        </div>
+        <div class="trending-product">
+            <a href="#"><img src="img/trending-product-1.jpg" alt=""></a>
+            <a href="#"><img src="img/trending-product-2.jpg" alt=""></a>
+            <a href="#"><img src="img/trending-product-3.jpg" alt=""></a>
+            <a href="#"><img src="img/trending-product-4.jpg" alt=""></a>
+            <a href="#"><img src="img/trending-product-5.jpg" alt=""></a>
+            <a href="#"><img src="img/trending-product-6.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="hd-slider container-big swiper-container">
+        <div class="swiper-wrapper">
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_4.jpg" alt="" class="slider-img">
+                <div class="slider-text container">
+                    <p class="hd-slider-trending">Hot deal</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
+            </div>
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_5.jpg" alt="" class="slider-img">
+                <div class="slider-text container">
+                    <p class="hd-slider-trending">Hot deal</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
+            </div>
+            <div class="slider-box swiper-slide">
+                <img src="img/slider_6.jpg" alt="" class="slider-img">
+                <div class="slider-text container">
+                    <p class="hd-slider-trending">Hot deal</p>
+                    <h2 class="slider-h2">Fishnet Chair</h2>
+                    <p class="slider-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+                    <a href="#" class="button">
+                        Order Us
+                        <img src="img/next.png" alt="next" width="15" height="14">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pagination swiper-pagination">
+            <a href="" class="circle"></a>
+            <a href="" class="circle circle-active"></a>
+            <a href="" class="circle"></a>
+        </div>
+    </div>
+    <div class="exclusive-2 container">
+        <div class="exclusive-2-box _left">
+            <img class="exclusive-2-img" src="img/exclusive-2.jpg" alt="">
+            <div class="exclusive-text">
+                <p class="exclusive-heading">exclusive</p>
+                <h3 class="exclusive-h3">Fishnet Chair</h3>
+                <p class="exclusive-content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt</p>
+                <a href="" class="button">
+                    Order Us
+                    <img src="img/next.png" alt="next" class="next" width="15" height="14">
+                </a>
+            </div>
+        </div>
+        <div class="exclusive-2-box _right">
+            <div class="exclusive-2-product">
+                <a href="#"><img src="img/product_5.jpg" alt=""></a>
+                <a href="#"><img src="img/product_6.jpg" alt=""></a>
+                <a href="#"><img src="img/product_7.jpg" alt=""></a>
+                <a href="#"><img src="img/product_8.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-app container-big">
+        <img src="img/app.jpg" alt="" class="mobile-app-img">
+        <div class="mobile-app-text container">
+            <p class="mobile-app-header">mobile app</p>
+            <h2 class="mobile-app-h2">Find. Follow. Favorite.</h2>
+            <p class="mobile-app-content">Save your favorites and share your style.</p>
+            <a class="app" href="#">
+                <img src="img/app-store.jpg" alt="app-store">
+            </a>
+            <a href="#">
+                <img src="img/google-play.jpg" alt="app-store">
+            </a>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="footer-top container">
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p class="padding">132A Bridge Road Richmond VIC Australia.</p>
+                <p>Talk to us on 1300 132</p>
+                <p>info@interior.com</p>
+            </div>
+            <div class="userful">
+                <h4>Useful Information</h4>
+                <div class="flex">
+                    <div class="userful-left">
+                        <a href="#">Sales terms</a>
+                        <a href="#">Customer care</a>
+                        <a href="#">Delivery</a>
+                    </div>
+                    <div class="userful-right">
+                        <a href="#">Architect accounts</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Exchanges &amp; returns</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mail">
+                <h4>Let’s Stay in Touch!</h4>
+                <p>Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                <form class="subscr" action="#">
+                    <input type="email" name="email" required placeholder="your email address">
+                    <button class="email-send">
+                        <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m8.75 17.612v4.638c0 .324.208.611.516.713.077.025.156.037.234.037.234 0 .46-.11.604-.306l2.713-3.692z" />
+                            <path d="m23.685.139c-.23-.163-.532-.185-.782-.054l-22.5 11.75c-.266.139-.423.423-.401.722.023.3.222.556.505.653l6.255 2.138 13.321-11.39-10.308 12.419 10.483 3.583c.078.026.16.04.242.04.136 0 .271-.037.39-.109.19-.116.319-.311.352-.53l2.75-18.5c.041-.28-.077-.558-.307-.722z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; Copyright - INTERIOR 2016. All Rights Reserved.</p>
+            <div class="cosial">
+                <a href=""><img src="img/facebook.svg" alt="facebook"></a>
+                <a href=""><img src="img/twitter.svg" alt="twitter"></a>
+                <a href=""><img src="img/google-plus.svg" alt="google-plus"></a>
+                <a href=""><img src="img/pinterest.svg" alt="pinterest"></a>
+            </div>
+            <div class="privacy">
+                <a href="#">Terms &amp; Conditions</a>
+                <a href="#"> / Privacy policy &amp; Cookies</a>
+            </div>
+        </div>
+    </div>
 
-</html>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body></html>

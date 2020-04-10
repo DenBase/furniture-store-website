@@ -1,0 +1,77 @@
+
+/*ШАПКА САЙТА*/
+
+.title-box {
+    background-color: #f7f7f7;
+    padding-top: 260px;
+    padding-bottom: 45px;
+}
+
+.title-box .title {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+}
+
+.menu-2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 18px;
+}
+
+.menu-2 li{
+    list-style-type: none;
+    margin-right: 45px;
+    margin-top: 65px;
+    
+}
+
+.menu-2-link{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    position: relative;
+    
+}
+
+.menu-2:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 75px;
+    background-color: #121212;
+}
+.menu-2:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #6c6c6c; 
+}
+
+.menu-2-link:hover {
+    color: #121212;
+}
+
+.menu-2-link-active{
+    text-decoration: none;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.trending-product {
+    margin-top: 50px;
+}
+
